@@ -10,7 +10,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
   return (
     
-      <Router>
+      <Router >
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projet/:id" element={<Projet />} />
